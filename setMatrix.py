@@ -2,6 +2,10 @@ def printZeroPositions(matrix):
     n = len(matrix)
     m = len(matrix[0])
 
+    #test[:, 0] select col from index 0
+    #test[0, :] select row from index 0
+
+
     for i in range(n):
         for j in range(m):
             print( matrix[i][j], end=" ")
